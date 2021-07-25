@@ -39,6 +39,7 @@ int main(int argc, char *argv[]) {
 
         pthread_create(&threads[i], NULL, makeProcess, (void *) argument);
         pthread_join(threads[i],NULL);
+        printf("Texto para subir cambios a Github en formato de tarea de Sistemas Distribuidos");
     }
 
     return 0;
